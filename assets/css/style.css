@@ -1,10 +1,15 @@
 /* === Reset CSS === */
+html {
+    scroll-behavior: smooth;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Segoe UI", Roboto, Arial, sans-serif;
 }
+
+
 
 /* === General === */
 body {
@@ -62,12 +67,34 @@ nav ul li a.active {
     text-align: center;
     padding: 60px 20px;
 }
+.hero1 {
+    background: linear-gradient(to right, hsl(223, 3%, 47%), #1e3a8a);
+    color:black;
+    text-align: center;
+    padding: 60px 60px;
+    margin-top: 50px;
+}
+.hero2 {
+    background: linear-gradient(to right, hsl(223, 3%, 47%), #1e3a8a);
+    color:black;
+    text-align: center;
+    padding: 60px 60px;
+    margin-top: 50px;
+}
 
 .hero-content {
+    max-width: 1000px;
+    max-height: 700px;
+    margin: auto;
+}
+.hero-content1 {
     max-width: 700px;
     margin: auto;
 }
-
+.hero-content2 {
+    max-width: 700px;
+    margin: auto;
+}
 .hero h2 {
     font-size: 28px;
     margin-bottom: 15px;
