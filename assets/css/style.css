@@ -89,7 +89,13 @@ header .site-title {
     background-color: rgba(0, 0, 0, 0.45); /* Ombre sombre */
     z-index: 1;
 }
-
+.site-title{
+font-family: 'Montserrat', sans-serif;
+    font-weight: 90;
+    font-size: 2rem;
+    color: rgb(177, 145, 102);  
+    padding-left:0 ;  
+}
 /* Le contenu de la section */
 .hero-content {
     position: relative;
@@ -108,14 +114,19 @@ header .site-title {
 
 .hero h2 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 3rem;
+    font-weight: 100;
+    font-size: 1rem;
 }
+
 /* === About Section === */
 .about-section {
     background-color: #f8f9fa; /* Couleur claire pour contraster avec la hero */
     padding: 50px 20px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap; /* important pour que ce soit responsive */
 }
 
 .about-content {
@@ -123,7 +134,6 @@ header .site-title {
     margin: auto;
     color: #333;
 }
-
 
 .hero p {
     font-size: 16px;
@@ -135,13 +145,6 @@ header .site-title {
     line-height: 1.8;
     color: #555;
  
-}
-
-/* Boutons */
-.buttons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
 }
 
 .btn-primary {
@@ -178,7 +181,7 @@ header .site-title {
 
 
 
-
+/*Download part*/
 
 .hero2 {
     background: linear-gradient(to right, hsl(228, 8%, 88%),grey);
@@ -191,6 +194,10 @@ header .site-title {
 .hero-content2 {
     max-width: 700px;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap; /* important pour que ce soit responsive */
 }
 .hero-content2 h2{ font-family: 'Montserrat', sans-serif;
     font-weight: 90;
@@ -207,9 +214,41 @@ header .site-title {
     margin: 10px auto 0;
     border-radius: 8px;
 }
+.sub-block h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #0b0b0c;
+    font-weight: bold; 
+}
+.sub-block {
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    max-width: 350px;
+    flex: 1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-right: 100px;
 
+}
+
+.sub-block1 {
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    max-width: 350px;
+    flex: 1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-right: 100px;
+ 
+}
+.sub-block1 h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #0b0b0c;
+    font-weight: bold;  
+}
 .hero-content2 p{
-    font-size: 30px;
+    font-size: 15px;
     margin-bottom: 30px;
     color: #0b0c0e;
 }
@@ -221,9 +260,23 @@ header .site-title {
     border-radius: 20px;
     border: px solid white;
     transition: 0.3s;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .third-btn:hover {
+    background-color: gray;
+    color: white;
+}
+.third-btn1{
+    background-color:rgb(167, 108, 32);
+    color: black;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: px solid white;
+    transition: 0.3s;
+    margin-top: 30px;
+}
+.third-btn1:hover {
     background-color: gray;
     color: white;
 }
@@ -235,8 +288,8 @@ header .site-title {
 .hero-content3 h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 50;
-    font-size: 2rem;
-    color: rgb(167, 108, 32); 
+    font-size: 1.5rem;
+    color: rgb(177, 145, 102); 
 }
 .hero-content3 p{
     font-size: 20px;
@@ -248,14 +301,14 @@ header .site-title {
     margin-bottom:0px ;
 }
 .hero-content4 {
-    background-color: #f8f9fa; /* Couleur claire pour contraster avec la hero */
+    background: linear-gradient(to right, hsl(228, 8%, 88%),grey); /* Couleur claire pour contraster avec la hero */
     padding: 50px 20px; 
 }
 .hero-content4 h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 50;
-    font-size: 2rem;
-    color: rgb(167, 108, 32); 
+    font-size: 1.5rem;
+    color: rgb(177, 145, 102); 
 }
 .hero-content4 p{
     font-size: 20px;
@@ -265,10 +318,11 @@ header .site-title {
 /* === Footer === */
 footer {
     text-align: center;
-    padding: 15px;
-    background: #111827;
-    color: white;
-    margin-top: 110px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    background: linear-gradient(to right, hsl(228, 8%, 88%),grey); 
+    color:black;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 
