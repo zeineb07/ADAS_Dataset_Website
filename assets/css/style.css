@@ -674,6 +674,13 @@ a:hover {
     overflow-x: auto;
 }
 
+.note-text {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--text-muted);
+    margin-top: 12px;
+}
+
 .stats-table {
     width: 100%;
     border-collapse: collapse;
