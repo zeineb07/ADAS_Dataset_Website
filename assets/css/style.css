@@ -412,6 +412,13 @@ a:hover {
     margin-top: 8px;
 }
 
+.download-card-note {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--text-muted);
+    margin-top: -4px;
+}
+
 /* ===== Citation ===== */
 .citation-block {
     background: var(--bg-alt);
